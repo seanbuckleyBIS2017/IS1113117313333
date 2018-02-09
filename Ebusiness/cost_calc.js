@@ -1,16 +1,16 @@
 /* global $ */
 
 function calcSub(){
-    var argsubtotal
+    var argSubtotal
     
     if(document.getElementById('salesforce').checked) {
-        argsubtotal = 100;
+        argSubtotal = 100;
     }
 else {
-    argsubtotal = 300;
+    argSubtotal = 300;
 }
 
-display(argsubtotal);
+display(argSubtotal);
 
 }
 
