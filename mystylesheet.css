@@ -5,7 +5,7 @@
 
 
 .btn-success{
-    background-color: #ffffff; /* Purple */
+    background-color: white; /* Purple */
      border: none;
     color: black;
     padding: 15px 32px;
@@ -15,7 +15,7 @@
     font-size: 16px;
 }
 .btn-dark{
-    background-color: #ffffff; /* Purple */
+    background-color: white; /* Purple */
      border: none;
     color: black;
     padding: 15px 32px;
