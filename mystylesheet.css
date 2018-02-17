@@ -5,22 +5,30 @@
 
 
 .btn-success{
-   background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
+   background-color: white; /* Purple */
+     border: none;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+    
     
 }
 
 .btn-dark{
+    background-color: white; /* Purple */
+     border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-home{
     background-color: white; /* Purple */
      border: none;
     color: black;
