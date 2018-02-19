@@ -3,11 +3,16 @@
 function calcSub(){
     var argSubtotal;
     
-    if(document.getElementById('salesforce').checked) {
+    if(document.getElementById('Salesforce').checked) {
         argSubtotal = 100;
     }
-else {
+else if(document.getElementById('AWS').checked) {
     argSubtotal = 300;
+}
+else if (document.getElementById("Cloud 9").checked) {
+    argSubtotal = 200;
+}
+else { argSubtotal = 400;
 }
 
 display(argSubtotal);
