@@ -58,6 +58,14 @@
             <br/>
             <br/>
             
+             <label for="VAT">
+            Total:
+            <input type="text" id="VAT" name="VAT" value="0.00" readonly/>
+        </label>    
+            
+            <br/>
+            <br/>
+            
         <label for="total">
             Total:
             <input type="text" id="total" name="total" value="0.00" readonly/>

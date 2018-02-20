@@ -2,22 +2,28 @@
 
 function calcSub(){
     var argSubtotal;
+}
+
+
     
     if(document.getElementById('Salesforce').checked) {
         argSubtotal = 100;
     }
-else if(document.getElementById('AWS').checked) {
+ if(document.getElementById('AWS').checked) {
     argSubtotal = 300;
 }
-else if (document.getElementById("Cloud 9").checked) {
+if(document.getElementById("Cloud 9").checked) {
     argSubtotal = 200;
 }
-else { argSubtotal = 400;
-}
-
-display(argSubtotal);
+if(document.getElementById("Gmail").checked) {
+    argSubtotal = 400;
 
 }
+
+display(argSubtotal); 
+
+}
+
 
 
 function display(parm1){
@@ -36,4 +42,11 @@ function enablebtnProceed(){
 
 function disablebtnProceed(){
     $('#btnProceed').prop('disabled', true);
+}
+
+
+
+
+function vatCalc (argSubtotal) {
+	var VAT ;
 }
