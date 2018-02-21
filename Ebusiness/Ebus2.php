@@ -18,8 +18,23 @@ session_start();
         
         
             <form action="Ebus3.php" method="POST">
-                    <label for="user_Firstname">First Name</label>
-                    <input type="text" id="user_Firstname" placeholder="User First Name" 
+                    <label for="user_name">Customer Name</label>
+                    <input type="text" id="user_name" placeholder="User Name" 
+                    
+                    <br/>
+                    <br/>
+                    
+                     <label for="user_adresss">Address</label>
+                    <input type="text" id="user_address" placeholder="Address" 
+                    
+                    <br/>
+                    <br/>
+                    
+                     <label for="user_email">Email</label>
+                    <input type="text" id="user_email" placeholder="User Email" 
+                    
+                    <br/>
+                    <br/>
                     
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">

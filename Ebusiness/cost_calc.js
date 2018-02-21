@@ -1,6 +1,8 @@
 /* global $ */
+/* global argSubtotal */
 
 function calcSub(){
+    
     var argSubtotal;
 
 
@@ -20,16 +22,31 @@ function calcSub(){
 
 }
 
+calcDisVatTotal();
+}
+
+
+function calcDisVatTotal(){
+      
+      var argDiscount;
+      
+      argDiscount = argSubtotal * 5%
+    
+
+
 display(argSubtotal); 
 
 }
 
 
 
+
 function display(parm1){
     
     document.getElementById("subtotal").value = parm1;
-    document.getElementById("total").value = parm1;
+    document.getElementById("Discount").value = parm2;
+    document.getElementById("VAT").value = parm3;
+    document.getElementById("total").value = parm4;
     
     enablebtnProceed();
     
@@ -47,6 +64,6 @@ function disablebtnProceed(){
 
 
 
-function vatCalc (argSubtotal) {
-	var VAT ;
-}
+
+
+

@@ -22,7 +22,7 @@
         
         
         <label for="Salesforce">
-        <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+        <input type="radio" id="Salesforce" name="product" checked onClick="disablebtnProceed()"/>
          Salesforce @ $100
         </label>
         
@@ -54,12 +54,20 @@
             Sub Total: 
             <input type="text" id="subtotal" value="0.00" readonly/>
         </label>
-            
+        
+             <br/>
+             <br/>
+        
+        <label for="Discount">
+            Discount @ 5% : 
+            <input type="text" id="Discount" value="0.00" readonly/>
+        </label>
+        
             <br/>
             <br/>
             
              <label for="VAT">
-            Total:
+            Vat :
             <input type="text" id="VAT" name="VAT" value="0.00" readonly/>
         </label>    
             
