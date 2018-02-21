@@ -2,20 +2,20 @@
 
 function calcSub(){
     var argSubtotal;
-}
+
 
 
     
     if(document.getElementById('Salesforce').checked) {
         argSubtotal = 100;
     }
- if(document.getElementById('AWS').checked) {
+    if(document.getElementById('AWS').checked) {
     argSubtotal = 300;
 }
-if(document.getElementById("Cloud 9").checked) {
+    if(document.getElementById("Cloud 9").checked) {
     argSubtotal = 200;
 }
-if(document.getElementById("Gmail").checked) {
+    if(document.getElementById("Gmail").checked) {
     argSubtotal = 400;
 
 }

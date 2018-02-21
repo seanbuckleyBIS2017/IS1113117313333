@@ -18,10 +18,14 @@ session_start();
         
         
             <form action="Ebus3.php" method="POST">
-
+                    <label for="user_Firstname">First Name</label>
+                    <input type="text" id="user_Firstname" placeholder="User First Name" 
+                    
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
+<br/>
+                    
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
