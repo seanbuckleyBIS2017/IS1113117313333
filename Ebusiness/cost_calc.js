@@ -1,38 +1,23 @@
 /* global $ */
-/* global argSubtotal */
+var argDiscount
+var argVAT
+var argtotal
+ var argSubtotal;
 
 function calcSub(){
     
-    var argSubtotal;
-
-
-
     
     if(document.getElementById('Salesforce').checked) {
         argSubtotal = 100;
     }
-    if(document.getElementById('AWS').checked) {
+    else if(document.getElementById('AWS').checked) {
     argSubtotal = 300;
 }
-    if(document.getElementById("Cloud 9").checked) {
+    else if(document.getElementById("Cloud 9").checked) {
     argSubtotal = 200;
 }
-    if(document.getElementById("Gmail").checked) {
+   else if(document.getElementById("Gmail").checked) 
     argSubtotal = 400;
-
-}
-
-calcDisVatTotal();
-}
-
-
-function calcDisVatTotal(){
-      
-      var argDiscount;
-      
-      argDiscount = argSubtotal * 5%
-    
-
 
 display(argSubtotal); 
 
