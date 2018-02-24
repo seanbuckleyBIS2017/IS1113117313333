@@ -8,13 +8,13 @@ var totalPrice;
 
 function calcSub(){
     
-     if(document.getElementById('salesforce').checked) {
+     if(document.getElementById('Salesforce').checked) {
       argSubTotal = 100;
-     }else if(document.getElementById('gmail').checked) {
-      argSubTotal = 500;
-    }else if(document.getElementById('cloud9').checked) {
-        argSubTotal = 400;
-    }else if (document.getElementById('aws').checked) 
+     }else if(document.getElementById('Gmail').checked) {
+      argSubTotal = 400;
+    }else if(document.getElementById('Cloud9').checked) {
+        argSubTotal = 200;
+    }else if (document.getElementById('AWS').checked) 
         argSubTotal = 300;
     
     calcDisVatTotal();
@@ -24,16 +24,16 @@ function calcSub(){
 
 function calcDisVatTotal(parmSubTotal){
     
-     if(document.getElementById('salesforce').checked) {
+     if(document.getElementById('Salesforce').checked) {
       DiscountAmt = 5;
       VatAmt = 9.5;
       totalPrice = 104.5
       
-     }else if(document.getElementById('gmail').checked) {
+     }else if(document.getElementById('Gmail').checked) {
      DiscountAmt= 25;
      VatAmt = 47.5;
      totalPrice = 522.5
-    }else if(document.getElementById('cloud9').checked) {
+    }else if(document.getElementById('Cloud9').checked) {
         DiscountAmt= 20;
         VatAmt = 38;
         totalPrice = 418
