@@ -14,7 +14,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: CadetBlue;
+    background-color: white;
 }
 
 li {
@@ -28,18 +28,24 @@ li:last-child {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: Gold;
+    background-color: Purple;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: white;
+    
+}
+   body {
+   background-image: url("https://content.paulreiffer.com/wp-content/uploads/2014/10/Paul-Reiffer-Professional-Photography-Photographer-Homepage-Background-New-Zealand-1920.jpg");
+   background-size: cover;
+   
 }
 
 
@@ -51,9 +57,9 @@ li a:hover:not(.active) {
         
       
     </head>
-    
-    <body style="background-color:AliceBlue; text-align:center" >
-  
+    <div align="center">
+    <body>
+      
         
                           <ul>
   <li><a  href="../homepage.html">Home</a></li>
@@ -387,7 +393,7 @@ li a:hover:not(.active) {
               
               <label for="subtotal">
                 Sub Total
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
               </label>
               
               <br/>
@@ -423,3 +429,4 @@ li a:hover:not(.active) {
             <a role="button" href="Ebus1.php" >Clear Choice</a> 
     
     </body>
+</div>
