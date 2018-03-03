@@ -8,6 +8,51 @@ session_start();
     <head>
         <title>Enter Details</title>
         
+        
+        
+         <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: Purple;
+}
+
+.active {
+    background-color: white;
+    
+}
+   body {
+   background-image: url("https://content.paulreiffer.com/wp-content/uploads/2014/10/Paul-Reiffer-Professional-Photography-Photographer-Homepage-Background-New-Zealand-1920.jpg");
+   background-size: cover;
+   
+}
+
+
+</style>
+        
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
@@ -18,24 +63,7 @@ session_start();
         
         
             <form action="Ebus3.php" method="POST">
-                    <label for="user_name">Customer Name</label>
-                    <input type="text" id="user_name" placeholder="User Name" 
-                    
-                    <br/>
-                    <br/>
-                    
-                     <label for="user_adresss">Address</label>
-                    <input type="text" id="user_address" placeholder="Address" 
-                    
-                    <br/>
-                    <br/>
-                    
-                     <label for="user_email">Email</label>
-                    <input type="text" id="user_email" placeholder="User Email" 
-                    
-                    <br/>
-                    <br/>
-                    
+                     
                     <label for="user_pin">PIN</label>
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
@@ -58,11 +86,11 @@ session_start();
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
-        <style>
-            body {
-    background-color: #93B874;
-}
-        </style>
+        
+        
+
+
+    
     </body>
     </div>
     
