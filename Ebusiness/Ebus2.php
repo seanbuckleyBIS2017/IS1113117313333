@@ -80,6 +80,12 @@ li a:hover:not(.active) {
             <?php
             // Set sesson variables
             $_SESSION["total"] = $_POST["total"];
+            $_SESSION["FullName"] = $_POST["FullName"];
+            $_SESSION["Email"] = $_POST["Email"];
+            $_SESSION["Address1"] = $_POST["Address1"];
+            $_SESSION["Address2"] = $_POST["Address2"];
+            $_SESSION["Postcode"] = $_POST["Postcode"];
+            $_SESSION["City"] = $_POST["City"];
             ?>
             
         </div>
