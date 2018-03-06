@@ -69,8 +69,9 @@ li.dropdown {
         
         <ul>
   
-  <li><a href="cv_page1.html">Curriculum Vitae</a></li>
-  <li><a href="../Ebusiness/webhome.html">Ebusiness</a></li>
+  <li><a href="webhome.html">Galahad Technologies Homepage</a></li>
+  <li><a href="../homepage.html">Project Homepage</a></li>
+  <li><a href="../cv_page1.html">Curriculum Vitae</a></li>
   <li class="dropdown">
     <a href="../Interests/Sports.html" class="dropbtn">Interests</a>
     <div class="dropdown-content">
