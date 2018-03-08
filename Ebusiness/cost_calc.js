@@ -30,17 +30,17 @@ function calcDisVatTotal(parmSubTotal){
       totalPrice = 104.5
       
      }else if(document.getElementById('gmail').checked) {
-     DiscountAmt= 25;
-     VatAmt = 47.5;
-     totalPrice = 522.5
+     DiscountAmt= 20;
+     VatAmt = 38;
+     totalPrice = 418
     }else if(document.getElementById('cloud9').checked) {
-        DiscountAmt= 20;
-        VatAmt = 38;
-        totalPrice = 418
+        DiscountAmt= 10;
+        VatAmt = 19;
+        totalPrice = 209
     }else{
         DiscountAmt = 15;
-        VatAmt= 27.5;
-        totalPrice = 302.5
+        VatAmt= 28.5;
+        totalPrice = 313.5
     }
         display(argSubTotal,DiscountAmt,VatAmt,totalPrice);
         enablebtnProceed();
